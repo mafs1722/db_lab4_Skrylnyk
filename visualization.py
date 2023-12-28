@@ -75,9 +75,9 @@ with conn:
         graph_ax.annotate(rat, xy=(cnt, rat), color='blue',
                            textcoords='offset points')
 
-    graph_ax.set_xlabel('Кількість жанрів')
+    graph_ax.set_xlabel('Кількість акторів')
     graph_ax.set_ylabel('Рейтинг')
-    graph_ax.set_title('Графік залежності середнього рейтингу фільмів від кількості його жанрів')
+    graph_ax.set_title('Графік залежності середнього рейтингу фільмів від кількості його акторів')
 
 
 mng = plt.get_current_fig_manager()
